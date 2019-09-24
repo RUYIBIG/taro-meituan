@@ -1,0 +1,41 @@
+.head {
+  .back{
+    width:100%;
+    height:150PX;
+    filter: blur(10PX);
+  }
+  .store{
+    display:flex;
+    align-items: center;
+    margin-left:20PX;
+    margin-top:-100PX;
+    .store_img{
+      width:80PX;
+      height:80Px;
+      border-radius:6PX;
+      z-index:2;
+    }
+    .store_text{
+      z-index:2;
+      color:#fff;
+      margin-left:10PX;
+      flex:1;
+      display:flex;
+      flex-direction: column;
+      font-size:18PX;
+      .notice{
+        padding:10PX 0;
+        font-size:14PX;
+        color:rgba(250,250,250,0.8);
+      }
+      .tags_text{
+        margin-right:10PX;
+        padding:2PX 0;
+        font-size:12PX;
+        color:#FFCD43;
+        border:1PX solid #FFCD43;
+        border-radius:8PX;
+      }
+    }
+  }
+}
